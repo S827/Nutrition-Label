@@ -34,6 +34,7 @@ p {
 .divider {
     border-bottom: 1px solid #888989;
     margin: 2px 0;
+    clear: right;
 }
 
 .right {
@@ -65,4 +66,23 @@ p {
 
 .md {
     height: 5px;
+}
+
+.indent {
+    margin-left: 1em;
+}
+
+.daily-value p:not(.no-divider) {
+    border-bottom: 1px solid #888989;
+}
+
+.dbl-indent {
+    margin-left: 2em;
+}
+
+.note {
+    font-size: 0.6rem;
+    margin: 5px 0;
+    padding: 0 8px;
+    text-indent: -8px;
 }
