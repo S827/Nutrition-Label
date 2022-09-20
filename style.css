@@ -21,7 +21,7 @@ html {
     box-sizing: border-box;
 }
 
-h1 {
+header h1 {
     text-align: center;
     margin: -4px 0;
     letter-spacing: 0.15px;
@@ -34,4 +34,35 @@ p {
 .divider {
     border-bottom: 1px solid #888989;
     margin: 2px 0;
+}
+
+.right {
+    float: right;
+}
+
+.lg {
+    height: 10px;
+}
+
+.lg, .md {
+    background-color: black;
+    border: 0;
+}
+
+.sm-text {
+    font-size: 0.85rem;
+}
+
+.calories-info h1 {
+    margin: -5px -2px;
+    overflow: hidden;
+}
+
+.calories-info span {
+    font-size: 1.2em;
+    margin-top: -7px;
+}
+
+.md {
+    height: 5px;
 }
